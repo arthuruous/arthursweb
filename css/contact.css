@@ -1,0 +1,62 @@
+@font-face { /*Método '@font-face' exportação de fontes*/
+    font-family: "Minecraft";
+    src: url(Minecraft.ttf);
+}
+
+body {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    font-family: "Minecraft";
+    letter-spacing: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+span {
+    color:#00C7FD;
+}
+
+/*navs*/
+nav {
+    display: flex;
+    margin: 3% 12%;
+    margin-left: 12%;
+    word-spacing: 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    background-color: white;
+}
+nav li {
+    display: inline-block;
+}
+nav a:hover {
+    color: #00C7FD;
+    transition: color 0.5s;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px 
+}
+div{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+figcaption{
+    position: absolute;
+    margin-top: 350px;
+    text-align: center;
+}
+img{
+    width: 130px;
+}
